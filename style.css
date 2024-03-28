@@ -1,0 +1,128 @@
+/*--Project 3a--*/
+
+button {
+    -moz-user-select: none; /* firefox */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE */
+    user-select: none; /* Standard syntax */
+}
+
+#text-box {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#text-box h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#timer-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: space-around;
+}
+
+#length-timer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+#timer-display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: space-around;
+    margin-top: 30px;
+}
+
+#timer-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    margin-top: 10px;
+}
+
+#timernum {
+    text-align: center;
+    font-size: 40px;
+}
+
+#sessionlength {
+    margin-right: 50px;
+}
+
+#sessionlength h2, #breaklength h2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: space-around;
+    margin-bottom: 20px;
+}
+
+#sessionplus, #sessionminus, #breakplus, #breakminus {
+    width: 50px;
+}
+
+#sessionnum, #breaknum {
+    width: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#start_pause {
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+}
+
+#stop_reset {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 700px) {
+    #length-timer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: normal;
+        align-items: normal;
+        align-content: space-around;
+        margin-left: 60px;
+    }
+    /* Checkpoint 4:00 PM */
+    #breaklength h2 {
+        margin-right: 60px;
+        font-size: 20px;
+    }
+    #sessionlength h2 {
+        margin-right: 5px;
+        font-size: 20px;
+    }
+    #sessionnum, #breaknum {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #breaklength {
+        margin-top: 30px;
+    }
+    #sessionplus, #breakplus, #sessionminus, #breakminus {
+        width: 30px;
+    }
+}
+
