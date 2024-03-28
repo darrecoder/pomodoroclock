@@ -25,7 +25,7 @@ let starttimer, starttwotimer;
 let timermode = 1; // 1 = Session, 2 = Break
 
 let audio = new Audio('alarm02.wav');
-audio.loop = true;
+audio.loop = false;
 
 initial();
 
