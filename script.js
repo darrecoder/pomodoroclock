@@ -1,4 +1,3 @@
-/*--Project 3a--*/
 
 let breakLength = document.getElementById("breaknum");
 let sessionLength = document.getElementById("sessionnum");
